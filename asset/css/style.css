@@ -36,10 +36,11 @@ a {
 
 .btn {
   color: #fff;
+  width: 50px;
+  height: 50px;
   text-align: center;
   font-size: 1.8rem;
   font-weight: 600;
-  border-radius: 14px;
   background: #1ebfc1;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
@@ -389,8 +390,8 @@ a {
 
 /* ==================== course ===================== */
 
-.body-figure {
-  padding-top: 65px;
+.body-course {
+  padding: 65px 0 189px;
 }
 
 .body-course__top {
@@ -491,6 +492,7 @@ a {
 
 .course-infor__class {
   gap: 10px;
+  margin-bottom: 29px;
 }
 
 .course-infor {
@@ -527,4 +529,209 @@ a {
   border-radius: 8px;
   transition: 0.3s;
   cursor: pointer;
+}
+
+/* ==================== countdown ===================== */
+
+.countdown {
+  padding: 65px 0 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.countdown-number {
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.countdown-desc {
+  margin-top: 11px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/* ==================== learning ===================== */
+
+.learning {
+  padding: 65px 0 65px;
+}
+
+.learning-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* learning left */
+.learning-desc {
+  margin-top: 27px;
+  width: 419px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 150%; /* 150% */
+}
+
+.learning__student-name {
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.learning-rectangle {
+  width: 8px;
+  height: 2px;
+  background: black;
+  margin-right: 5px;
+}
+
+.learning-student {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.learning-arrow {
+  margin-top: 52px;
+  display: flex;
+}
+
+.learning-previous {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(180deg);
+  background: white;
+  color: #2ac9bf;
+  border-radius: 50%;
+}
+
+.learning-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: #2ac9bf;
+  border-radius: 50%;
+}
+
+.learning-previous:hover,
+.learning-next:hover {
+  cursor: pointer;
+  background: #2ac9bf;
+  color: white;
+  transition: 0.4s;
+}
+
+/* learning right */
+
+.leaning-avt {
+  position: relative;
+}
+
+.learning-avt__avt6 {
+  position: absolute;
+  top: 90px;
+  right: 220px;
+  width: 235px;
+  height: 235px;
+  background: #ff8282;
+  border-radius: 50%;
+}
+
+.learning-avt__avt1 {
+  position: absolute;
+  right: 500px;
+  top: 0px;
+  background: #27dcd0;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+
+.learning-avt__avt2 {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  width: 110px;
+  height: 110px;
+  background: rgb(240, 94, 240);
+  border-radius: 50%;
+}
+
+.learning-avt__avt3 {
+  position: absolute;
+  top: 300px;
+  right: 70px;
+  border-radius: 50%;
+  width: 78px;
+  height: 78px;
+  background: hsl(178, 100%, 83%);
+}
+
+.learning-avt__avt4 {
+  position: absolute;
+  top: 322px;
+  right: 480px;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: #f68e6e;
+}
+
+.learning-avt__avt5 {
+  position: absolute;
+  top: 200px;
+  right: 650px;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background: rgb(246, 246, 13);
+}
+
+/* ==================== account ===================== */
+
+.account {
+  padding: 65px 0 65px;
+  display: flex;
+}
+
+.body-account {
+  padding: 76px 289px 88px 135px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  background: #def6f5;
+}
+
+.account-left {
+  max-width: 36%;
+  white-space: nowrap;
+}
+
+.account-heading {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.account-desc {
+  margin-top: 18px;
+}
+
+.account-btn {
+  margin-left: 410px;
+  width: 186px;
+  height: 68px;
+  border: none;
+  border-radius: 14px;
+}
+
+.account-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.3s;
 }
